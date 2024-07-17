@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "eats",
+    "slug": "eats",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_01.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo_01.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.customizedfood"
+    },
+    "web": {
+      "favicon": "./assets/images/logo_02.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56bf08e3-31f3-4709-a338-4f7241406a83"
+      }
+    }
+  }
+}
